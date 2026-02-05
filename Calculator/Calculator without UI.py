@@ -30,6 +30,16 @@ Select Operation
 
 """)
 
+while True:
+
+    userchoice = input("Enter Choice")
+    if userchoice in ("1","2","3","4"):
+        try:
+            num1 = input("Enter first number")
+        except ValueError:
+            print
+            
+
 
 
 
