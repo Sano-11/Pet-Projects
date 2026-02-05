@@ -27,10 +27,11 @@ Select Operation
 
 while True:
 
-    userchoice = input("Enter Choice")
+    userchoice = input("Enter Choice: ")
     if userchoice in ("1","2","3","4"):
         try:
-            num1 = float(input("Enter first number"))
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
         except ValueError:
             print ("Invalid Input, please enter a number")
             continue
