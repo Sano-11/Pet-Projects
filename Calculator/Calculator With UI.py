@@ -5,6 +5,7 @@ import tkinter
 class calculator:
 
     def __init__(self):
+        x="kve"
         pass
 
     def create_widgets():
