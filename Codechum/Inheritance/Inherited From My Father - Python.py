@@ -20,10 +20,9 @@ class Person:
     def __str__(self) -> str:
         return f"{self._name} - {self._age} - {self._gender}"
     
-
 class Father(Person):
     def __init__(self, name: str, age: int):
-        # Always passes 'M' as the gender
+        
         super().__init__(name, age, 'M')
 
     def introduce_with_style(self, n: int) -> None:
